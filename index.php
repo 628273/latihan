@@ -1,4 +1,8 @@
 <?php
+/*
+Latihan bersama
+*/
+
 echo "Hello World";
 ?>
 
