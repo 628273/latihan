@@ -55,6 +55,11 @@ class User extends ActiveRecord implements IdentityInterface
             ['status', 'in', 'range' => [self::STATUS_ACTIVE, self::STATUS_DELETED]],
         ];
     }
+	
+	public function getKaryawan()
+    {
+        return $this->hasOne(Employee::className(), ['nik' => 'nik']);
+    }
 
     /**
      * @inheritdoc
