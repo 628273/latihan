@@ -1,0 +1,4 @@
+CARA MIGRATION DI YII
+
+php yii migrate/create create_provinsi_table
+cara jalanin = yii migrate
