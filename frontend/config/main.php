@@ -43,13 +43,13 @@ return [
                  ],
              ],
         ],
-        'assetManager' => [
-        'bundles' => [
-            'dmstr\web\AdminLteAsset' => [
-                'skin' => 'skin-black',
-            ],
-        ],
-    ],
+    //     'assetManager' => [
+    //     'bundles' => [
+    //         'dmstr\web\AdminLteAsset' => [
+    //             'skin' => 'skin-black',
+    //         ],
+    //     ],
+    // ],
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,

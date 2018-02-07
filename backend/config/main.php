@@ -8,6 +8,7 @@ $params = array_merge(
 
 return [
     'id' => 'app-backend',
+    'name'=>'Telkomsel',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
@@ -44,13 +45,7 @@ return [
                  ],
              ],
         ],
-        'assetManager' => [
-        'bundles' => [
-            'dmstr\web\AdminLteAsset' => [
-                'skin' => 'skin-red',
-            ],
-        ],
-    ],
+    
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,
